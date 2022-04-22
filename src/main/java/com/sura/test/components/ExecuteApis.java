@@ -27,6 +27,8 @@ public class ExecuteApis {
 		if(model != null) {
 			
 		exect(model);
+		} else {
+			log.info("No existe token para la fecha actual "+dia);
 		}
 	}
 	
